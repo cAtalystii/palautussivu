@@ -1,0 +1,27 @@
+html {
+	background-color: orange;
+}
+h1 {
+	text-align: center;
+	color: red;
+}
+#halti {
+	color: lightblue;
+	font-family: Arial, sans-serif;
+}
+#juki {
+	color: rgb(245, 49, 238);
+	font-family: Arial, sans-serif;
+}
+.column {
+	float: left;
+	width: 33,33%;
+	padding: 5px;
+	margin-right: 582px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
