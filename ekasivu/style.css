@@ -7,10 +7,12 @@ h1 {
 }
 #halti {
 	color: lightblue;
+	border: 1px dotted lightblue;
 	font-family: Arial, sans-serif;
 }
 #juki {
 	color: rgb(245, 49, 238);
+	border: 1px dotted rgb(245,49,238);
 	font-family: Arial, sans-serif;
 }
 .column {
